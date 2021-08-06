@@ -43,3 +43,7 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_KIND_DUNE_04D1ED300 }}
           action: "close"
+
+app_location: 'Client' # App source code path
+api_location: 'Api' # Api source code path - optional
+output_location: 'wwwroot' # Built app content directory - optional
